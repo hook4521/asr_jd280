@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hook4521-asr_jd280"
+version = "0.1.0"
+description = "按结构键把条目聚类，标出语音识别算法工程师·混合精度的溢出与下溢上的同组项与各组的代表样本"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "hook4521" }]
+keywords = ["ai", "llm", "cli", "analysis"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://hook4521.github.io"
+Repository = "https://github.com/hook4521/asr_jd280"
+Issues = "https://github.com/hook4521/asr_jd280/issues"
+
+[project.scripts]
+asr_jd280 = "asr_jd280:main"
+
+[tool.setuptools]
+py-modules = ["asr_jd280"]
